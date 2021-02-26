@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/JApFarming/precache-manifest.cd537d8830d6a57320cda5b1c2ab6625.js"
+  "/JApFarming/precache-manifest.e2c51fc92ee915cfbede791a33cba3de.js"
 );
 
 workbox.clientsClaim();

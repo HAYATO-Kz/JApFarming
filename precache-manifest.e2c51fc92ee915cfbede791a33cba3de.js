@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f0f7adccdc614c8f4b47",
+    "revision": "9d94cb9174601cc1546b",
     "url": "/JApFarming/static/css/main.e3168520.chunk.css"
   },
   {
-    "revision": "f0f7adccdc614c8f4b47",
-    "url": "/JApFarming/static/js/main.f0f7adcc.chunk.js"
+    "revision": "9d94cb9174601cc1546b",
+    "url": "/JApFarming/static/js/main.9d94cb91.chunk.js"
   },
   {
     "revision": "de735eb047fc6aa38a53",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/JApFarming/static/js/runtime~main.48ba251e.js"
   },
   {
-    "revision": "985b027744f8c538e71aa776ca65b6b4",
+    "revision": "887228c26ed16c0bf8697d6b82f520d2",
     "url": "/JApFarming/index.html"
   }
 ];
