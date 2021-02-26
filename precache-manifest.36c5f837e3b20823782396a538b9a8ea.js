@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/JApFarming/static/js/runtime~main.48ba251e.js"
   },
   {
-    "revision": "887228c26ed16c0bf8697d6b82f520d2",
+    "revision": "59104f0ee4997a1aca625da77ee5dfbb",
     "url": "/JApFarming/index.html"
   }
 ];
