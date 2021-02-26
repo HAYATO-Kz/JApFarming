@@ -92,10 +92,7 @@ const App = () => {
     console.log('token', tokenFarm._address)
     await daiToken.methods.approve(tokenFarm._address, amount).send({ from: account }).on('transactionHash', (hash) => {
       tokenFarm.methods.stakeTokens(amount).send({ from: account }).on('transactionHash', async (hash) => {
-
-        await loadBlockchainData()
-        setLoading(false)
-        console.log('staked')
+        window.location.reload();
       })
     })
   }
@@ -104,9 +101,7 @@ const App = () => {
     setLoading(true)
     console.log('account unstake: ',account)
     await tokenFarm.methods.unstakeTokens().send({ from: account }).on('transactionHash', async (hash) => {
-
-      await loadBlockchainData()
-      setLoading(false)
+      window.location.reload();
     })
   }
 
